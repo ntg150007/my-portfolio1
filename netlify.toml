@@ -14,3 +14,6 @@
   command = "npm run dev"
   port = 5000
   publish = "dist"
+
+  [build.environment]
+  NODE_VERSION = "18.18.2"
